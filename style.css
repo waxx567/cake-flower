@@ -61,6 +61,11 @@ header {
     position: relative;
 }
 
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    content: '';
+}
+
 nav {
     position: absolute;
     text-align: left;
