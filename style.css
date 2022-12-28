@@ -82,7 +82,7 @@ nav {
     left: 0;
     background: var(--background);
     width: 100%;
-    transform: scale(.75);
+    transform: scale(1);
 }
 
 nav ul {
