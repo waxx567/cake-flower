@@ -36,7 +36,6 @@ header {
 }
 
 nav {
-    /* Because header(the outer) had a position:fixed on it, this position:absolute will be relative to that */
     position: absolute;
-
+    text-align: left;
 }
