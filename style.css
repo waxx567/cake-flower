@@ -47,3 +47,13 @@ nav ul {
     padding: 0;
     list-style: none;
 }
+
+nav li {
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
