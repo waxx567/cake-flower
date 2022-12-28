@@ -34,3 +34,9 @@ header {
     z-index: 999;
     width: 100%;
 }
+
+nav {
+    /* Because header(the outer) had a position:fixed on it, this position:absolute will be relative to that */
+    position: absolute;
+
+}
