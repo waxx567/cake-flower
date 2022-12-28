@@ -124,4 +124,8 @@ nav a:hover {
     .nav-toggle-label {
         display: none;
     }
+    
+    header {
+        display: grid;
+    }
 }
