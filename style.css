@@ -31,5 +31,7 @@ header {
     background: var(--background);
     text-align: center;
     position: fixed;
+    /* Because position:fixed, make sure the navbar is always on top with  a big z-index  */
+    z-index: 999;
     width: 100%;
 }
