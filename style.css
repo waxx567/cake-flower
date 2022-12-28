@@ -2,7 +2,11 @@
 
 .content {
     background-image: url('/19.jpg');
-    background-repeat: no-repeat;
+    background-color: #333;
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: grid;
+    place-items: center;
     height: 200vh;
 }
 
