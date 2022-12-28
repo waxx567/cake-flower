@@ -35,6 +35,10 @@ header {
     width: 100%;
 }
 
+.nav-toggle {
+    display: none;
+}
+
 nav {
     position: absolute;
     text-align: left;
