@@ -82,7 +82,6 @@ nav {
     left: 0;
     background: var(--background);
     width: 100%;
-    display: none;
 }
 
 nav ul {
