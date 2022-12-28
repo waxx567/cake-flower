@@ -71,6 +71,10 @@ header {
     bottom: 7px;
 }
 
+.nav-toggle-label span::after {
+    top: 7px;
+}
+
 nav {
     position: absolute;
     text-align: left;
