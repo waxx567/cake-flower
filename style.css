@@ -29,4 +29,5 @@ body {
 
 header {
     background: var(--background);
+    text-align: center;
 }
