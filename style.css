@@ -57,6 +57,8 @@ header {
     background: white;
     height: 2px;
     width: 2em;
+    border-radius: 2px;
+    
 }
 
 nav {
