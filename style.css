@@ -39,4 +39,11 @@ nav {
     position: absolute;
     text-align: left;
     top: 100%;
+    left: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
