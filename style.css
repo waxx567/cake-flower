@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
 
-.content {
-    background-image: url('/19.jpg');
-    background-color: #333;
-    background-blend-mode: multiply;
-    background-size: cover;
-    display: grid;
-    place-items: center;
-    height: 200vh;
-}
-
 :root {
     --background: rgba(85, 214, 170, .85)
 }
@@ -24,3 +14,15 @@ body {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
 }
+
+.content {
+    background-image: url('/19.jpg');
+    background-color: #333;
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    height: 200vh;
+}
+
+/* Navigation styles */
