@@ -3,10 +3,20 @@
 .content {
     background-image: url('/19.jpg');
     background-repeat: no-repeat;
-    width: 100%;
     height: 200vh;
 }
 
 :root {
     --background: rgba(85, 214, 170, .85)
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #222;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
 }
