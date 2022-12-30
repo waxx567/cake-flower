@@ -12,8 +12,10 @@ cursor.execute(
 
 # user - user-id, user-name
 
-# names - name-id, user-id, name
+# names - name-id, user-id, name, email
+
 # address - address-id, name-id, street, city, state, postcode, country
+
 # phone - phone-id, name-id, phone-number
 
 if __name__ == "__main__":
