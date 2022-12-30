@@ -1,12 +1,10 @@
 import sqlite3
 from flask import Flask, redirect, render_template, request
 
-db = SQL("sqlite:///users.db")
+connection = sqlite3.connect("users.db")
 
-username = input("Username: ").strip()
-email = input("Email: ").strip()
+cursor = connection.cursor()
 
-rows = db.execute("")
 
 if __name__ == "__main__":
     with app.app_context():
