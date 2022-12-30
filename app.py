@@ -9,8 +9,10 @@ cursor.execute(
 
 # FORGOT THE USER'S ACTUAL NAME/S
 # DELETE ALL FROM OLD TABLE EXCEPT
-# user TABLE IS NOW user-id AND user-name ONLY
-# THEN names CAN BE
+# user - user-id, user-name, name-id
+# names - name-id, user-id, name
+# address - name-id, street, city, state, postcode, country
+# phone -
 
 if __name__ == "__main__":
     with app.app_context():
