@@ -8,3 +8,7 @@
 div:not([class]) {
     outline: 2px solid black;
 }
+
+header {
+    margin-block: 3rem;
+}
