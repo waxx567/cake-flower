@@ -2,6 +2,10 @@
     display: flex;
 }
 
+.flex-container div {
+    
+}
+
 .grid-container {
     /*display: flex;*/
 }
