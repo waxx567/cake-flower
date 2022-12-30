@@ -6,8 +6,9 @@ app = Flask(__name__)
 connection = sqlite3.connect("users.db")
 
 cursor = connection.cursor()
-cursor.execute(
-    "INSERT INTO users VALUES ('waxx567', 'waynem567@gmail.com', '99 Main St', 'Home Town', '6789', '+27791887713')")
+# REWRITE
+# cursor.execute(
+#    "INSERT INTO users VALUES ('waxx567', 'waynem567@gmail.com', '99 Main St', 'Home Town', '6789', '+27791887713')")
 
 CLIENT = "gaslitcatfish web designs"
 CLIENT_1 = "gaslit"
