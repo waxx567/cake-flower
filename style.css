@@ -1,3 +1,10 @@
 .flex-container {
     display: flex;
 }
+
+.grid-container {
+    /*display: flex;*/
+}
+div:not([class]) {
+    outline: 2px solid black;
+}
