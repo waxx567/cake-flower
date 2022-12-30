@@ -140,6 +140,7 @@ nav a:hover {
         all: unset;
         grid-column: 3 / 4;
         display: flex;
+        justify-content: flex-end;
     }
 
     nav a {
