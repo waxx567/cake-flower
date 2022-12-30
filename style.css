@@ -140,4 +140,8 @@ nav a:hover {
         all: unset;
         grid-column: 3 / 4;
     }
+
+    nav a {
+        opacity: 1;
+    }
 }
