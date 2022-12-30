@@ -162,7 +162,7 @@ nav a:hover {
         height: 5px;
         background: black;
         position: absolute;
-        top: -1em;
+        top: -.75em;
         left: 0;
         right: 0;
     }
