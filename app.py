@@ -1,6 +1,8 @@
 import sqlite3
 from flask import Flask, redirect, render_template, request
 
+app = Flask(__name__)
+
 connection = sqlite3.connect("users.db")
 
 cursor = connection.cursor()
