@@ -163,5 +163,6 @@ nav a:hover {
         position: absolute;
         top: -1em;
         left: 0;
+        right: 0;
     }
 }
