@@ -141,6 +141,7 @@ nav a:hover {
         grid-column: 3 / 4;
         display: flex;
         justify-content: flex-end;
+        align-items: center;
     }
 
     nav a {
@@ -149,7 +150,6 @@ nav a:hover {
 
     nav ul {
         display: flex;
-        justify-content: flex-end;
-        border: 1px solid red;
     }
+
 }
