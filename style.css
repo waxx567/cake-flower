@@ -3,6 +3,10 @@
     flex-wrap: wrap;
 }
 
+.flex-container > * {
+    flex-grow: 1;
+}
+
 .grid-container {
     display: grid;
     /*
