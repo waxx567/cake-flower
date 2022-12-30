@@ -7,18 +7,6 @@ cursor = connection.cursor()
 cursor.execute(
     "INSERT INTO users VALUES ('waxx567', 'waynem567@gmail.com', '99 Main St', 'Home Town', '6789', '+27791887713')")
 
-# FORGOT THE USER'S ACTUAL NAME/S
-# DELETE ALL FROM OLD TABLE EXCEPT
-
-# user - user-id, user-name
-
-# names - name-id, user-id, name, email
-
-# address - address-id, name-id, street, city, state, postcode, country
-
-# phone - phone-id, name-id, phone-number
-
-# DONE!!!
 
 if __name__ == "__main__":
     with app.app_context():
