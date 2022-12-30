@@ -1,6 +1,6 @@
 import csv
 
-from cs50 import SQL
+import sqlite3
 
 db = SQL("sqlite:///users.db")
 
