@@ -153,6 +153,7 @@ nav a:hover {
     
     nav a {
         opacity: 1;
+        position: relative;
     }
 
     nav a::before {
