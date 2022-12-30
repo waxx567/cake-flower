@@ -10,12 +10,12 @@
 .grid-container {
     /*display: flex;*/
 }
-
+/*
 div:not([class]) {
     outline: 2px solid black;
     padding: 0.5em;
 }
-
+*/
 header {
     margin-block: 3rem;
 }
