@@ -136,4 +136,8 @@ nav a:hover {
         /* this also works as
         grid-column: 2 / 3; */
     }
+
+    nav {
+        grid-column: 3 / 4;
+    }
 }
