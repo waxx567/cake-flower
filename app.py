@@ -1,6 +1,5 @@
-import csv
-
 import sqlite3
+from flask import Flask, redirect, render_template, request
 
 db = SQL("sqlite:///users.db")
 
