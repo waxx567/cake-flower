@@ -157,5 +157,6 @@ nav a:hover {
 
     nav a::before {
         content: '';
+        display: block;
     }
 }
