@@ -4,6 +4,7 @@
 
 .grid-container {
     display: grid;
+    grid-auto-flow: column;
 }
 
 div:not([class]) {
