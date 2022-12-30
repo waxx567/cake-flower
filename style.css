@@ -142,10 +142,6 @@ nav a:hover {
         align-items: center;
     }
 
-    nav a {
-        opacity: 1;
-    }
-
     nav ul {
         display: flex;
     }
@@ -154,4 +150,9 @@ nav a:hover {
         margin-left: 3em;
         margin-bottom: 0;
     }
+    
+    nav a {
+        opacity: 1;
+    }
+
 }
