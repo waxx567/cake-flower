@@ -5,9 +5,12 @@ connection = sqlite3.connect("users.db")
 
 cursor = connection.cursor()
 cursor.execute(
-    "INSERT INTO users VALUES ('waxx567', 'waynem567@gmail.com', '4 Shaw St', 'Shit Towne', '6789', '+27791887713')")
+    "INSERT INTO users VALUES ('waxx567', 'waynem567@gmail.com', '99 Main St', 'Home Town', '6789', '+27791887713')")
 
-    # FORGOT THE USER'S ACTUAL NAME/S 
+# FORGOT THE USER'S ACTUAL NAME/S
+# DELETE ALL FROM OLD TABLE EXCEPT
+# user TABLE IS NOW user-id AND user-name ONLY
+# THEN names CAN BE
 
 if __name__ == "__main__":
     with app.app_context():
