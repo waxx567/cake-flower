@@ -155,4 +155,7 @@ nav a:hover {
         opacity: 1;
     }
 
+    nav a::before {
+        content: '';
+    }
 }
