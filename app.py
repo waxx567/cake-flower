@@ -1,6 +1,8 @@
 from flask import Flask, redirect, render_template, request, session, url_for, flash
 from datetime import timedelta
+import MySQLdb
 from flask_sqlalchemy import SQLAlchemy
+
 
 app = Flask(__name__)
 app.secret_key = "makeitcomplicated"
