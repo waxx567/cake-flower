@@ -132,8 +132,6 @@ nav a:hover {
 
     .logo {
         grid-column: 2 / span 1;
-        /* this also works as
-        grid-column: 2 / 3; */
     }
 
     nav {
