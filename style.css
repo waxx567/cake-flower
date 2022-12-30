@@ -161,5 +161,6 @@ nav a:hover {
         height: 5px;
         background: black;
         position: absolute;
+        top: -1em;
     }
 }
