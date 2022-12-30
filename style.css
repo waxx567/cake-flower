@@ -3,7 +3,7 @@
 }
 
 .grid-container {
-    /*display: flex;*/
+    display: grid;
 }
 
 div:not([class]) {
