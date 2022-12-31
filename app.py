@@ -9,10 +9,12 @@ c = conn.cursor()
 # Query database
 c.execute("SELECT * FROM test")
 
-# Or
+# Loop
 items = c.fetchall()
-print(items)
-# Is nice
+
+for item in items:
+    print(item)
+
 
 # Commit command
 conn.commit()
