@@ -7,7 +7,7 @@ conn = sqlite3.connect("users.db")
 c = conn.cursor()
 
 # Insert one record into db
-c.execute("INSERT INTO test VALUES ('Jim', 'Jones', 285)")
+c.execute("INSERT INTO test VALUES ('Hal', 'Bell', 701)")
 
 # Commit command
 conn.commit()
