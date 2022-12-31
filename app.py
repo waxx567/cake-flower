@@ -8,8 +8,8 @@ c = conn.cursor()
 
 # Query database
 c.execute("SELECT * FROM test")
-# c.fetchone() to get last added
-# c.fetchmany(3) to fetch last 3 or whatever
+
+# Print all
 print(c.fetchall())
 
 # Commit command
