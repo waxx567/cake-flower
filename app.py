@@ -13,8 +13,8 @@ c.execute("SELECT * FROM test")
 items = c.fetchall()
 
 for item in items:
-    # Print the third item in each tuple
-    print(item[2])
+    # Print the first item in each tuple
+    print(item[0])
 
 
 # Commit command
