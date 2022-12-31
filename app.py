@@ -14,7 +14,7 @@ many_data = [
     ("Halal", "Tukka", 308),
 ]
 
-c.executemany("INSERT INTO test VALUES (?, ?, ?, ?)", many_data)
+c.executemany("INSERT INTO test VALUES (?, ?, ?)", many_data)
 
 # Commit command
 conn.commit()
