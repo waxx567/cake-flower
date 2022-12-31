@@ -9,7 +9,10 @@ c = conn.cursor()
 # Query database
 c.execute("SELECT * FROM test")
 
-c.fetchall()
+# Or
+items = c.fetchall()
+print(items)
+# Is nice
 
 # Commit command
 conn.commit()
