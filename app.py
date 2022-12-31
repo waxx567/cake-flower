@@ -28,7 +28,7 @@ def home():
 
 
 def input_to_lowercase(upper):
-    for char in upper:  
+    for char in upper:
         return char.lower()
 
 
