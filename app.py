@@ -11,6 +11,7 @@ c.execute("SELECT * FROM test")
 
 # Prints the second element of the first tuple when input of python app.py
 print(c.fetchone()[1])
+# Can manipulate c.fetchmany() in the same way
 
 # Commit command
 conn.commit()
