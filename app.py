@@ -20,7 +20,8 @@ BUILDER_2 = "fifty"
 BUILDER_3 = "ltd"
 YEAR = "2022"
 
-SITE_INFO = [[CLIENT = client]]  # , CLIENT_1 = "gaslit", CLIENT_2 = "catfish", CLIENT_3 = "designs", BUILDER = "fivefiftyfive ltd", BUILDER_1 = "five", BUILDER_2 = "fifty", BUILDER_3 = "ltd", YEAR = "2022"}
+# , CLIENT_1 = "gaslit", CLIENT_2 = "catfish", CLIENT_3 = "designs", BUILDER = "fivefiftyfive ltd", BUILDER_1 = "five", BUILDER_2 = "fifty", BUILDER_3 = "ltd", YEAR = "2022"}
+SITE_INFO = [client = CLIENT, client_1 = CLIENT_1]
 
 
 @app.route("/")
