@@ -28,6 +28,11 @@ def home():
     return render_template("index.html", site_info())
 
 
+def input_to_lowercase(upper):
+    for char in upper:
+        return char.lower()
+
+
 def site_info(CLIENT, etc):
     ...
     # returns inputs for app routes
