@@ -6,15 +6,11 @@ conn = sqlite3.connect("users.db")
 # Create cursor
 c = conn.cursor()
 
-# Insert many records into db
-many_data = [
-    ("Liksmi", "Lotz", 48),
-    ("Bo", "Low", 8887),
-    ("Peat", "Bong", 420),
-    ("Halal", "Tukka", 308),
-]
-
-c.executemany("INSERT INTO test VALUES (?,?,?)", many_data)
+# Query database
+c.execute("SELECT * FROM test")
+# c.fetchone() to get last added
+# c.fetchmany(3) to fetch last 3 or whatever
+c.fetchall()
 
 # Commit command
 conn.commit()
