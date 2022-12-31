@@ -10,7 +10,7 @@ c = conn.cursor()
 many_data = [("Liksmi", "Lotz", 48), ("Bo", "Low", 8887),
              ("Peat", "Bong", 420), ("Halal", "Tukka", 308),]
 
-c.execute()
+c.executemany()
 
 # Commit command
 conn.commit()
