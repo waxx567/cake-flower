@@ -24,7 +24,7 @@ YEAR = "2022"
 
 @app.route("/")
 def home():
-    return render_template("index.html", site_info())
+    return render_template("index.html")
 
 
 def input_to_lowercase(upper):
@@ -35,9 +35,3 @@ def input_to_lowercase(upper):
 def site_info(CLIENT, etc):
     ...
     # returns inputs for app routes
-
-
-if __name__ == "__main__":
-    with app.app_context():
-        c.create_all()
-    app.run(debug=True)
