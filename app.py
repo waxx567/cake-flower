@@ -9,8 +9,8 @@ c = conn.cursor()
 # Query database
 c.execute("SELECT * FROM test")
 
-# Print all
-print(c.fetchall())
+# Prints the first tuple
+print(c.fetchone())
 
 # Commit command
 conn.commit()
