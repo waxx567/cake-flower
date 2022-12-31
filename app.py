@@ -29,3 +29,4 @@ def home():
 conn.commit()
 
 # Close connection
+conn.close()
