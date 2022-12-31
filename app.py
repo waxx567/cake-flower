@@ -3,7 +3,7 @@ import sqlite3
 # Connect to database
 conn = sqlite3.connect("users.db")
 
-# Create a cursor
+# Create cursor
 c = conn.cursor()
 
 # Create table
