@@ -14,7 +14,7 @@ items = c.fetchall()
 
 for item in items:
     # Pulls elements out of tuples
-    print(item[0] + ' ' + item[1] + ' ' + item[2])
+    print(item[0] + ' ' + item[1] + ' ' + str(item[2]))
 
 
 # Commit command
