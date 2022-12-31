@@ -3,12 +3,11 @@ from flask import Flask, redirect, render_template, request
 
 app = Flask(__name__)
 
-# connection = sqlite3.connect("users.db")
+# Connect to database
+conn = sqlite3.connect("users.db")
 
-# cursor = connection.cursor()
-# REWRITE
-# cursor.execute(
-#    "INSERT INTO users VALUES ('waxx567', 'waynem567@gmail.com', '99 Main St', 'Home Town', '6789', '+27791887713')")
+# Create a cursor
+c = conn.cursor()
 
 CLIENT = "gaslitcatfish web designs"
 CLIENT_1 = "gaslit"
