@@ -19,19 +19,13 @@ BUILDER_2 = "fifty"
 BUILDER_3 = "ltd"
 YEAR = "2022"
 
-# , CLIENT_1 = "gaslit", CLIENT_2 = "catfish", CLIENT_3 = "designs", BUILDER = "fivefiftyfive ltd", BUILDER_1 = "five", BUILDER_2 = "fifty", BUILDER_3 = "ltd", YEAR = "2022"}
-
 
 @app.route("/")
 def home():
     return render_template("index.html")
 
 
-def input_to_lowercase(upper):
-    for char in upper:
-        return char.lower()
+# Commit command
+conn.commit()
 
-
-def site_info(CLIENT, etc):
-    ...
-    # returns inputs for app routes
+# Close connection
