@@ -11,6 +11,7 @@ c.execute("SELECT * FROM test")
 # c.fetchone() to get last added
 # c.fetchmany(3) to fetch last 3 or whatever
 c.fetchall()
+# But you won't see anything so
 
 # Commit command
 conn.commit()
