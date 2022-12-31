@@ -6,12 +6,8 @@ conn = sqlite3.connect("users.db")
 # Create cursor
 c = conn.cursor()
 
-# Create table
-c.execute("""CREATE TABLE test (
-    first_name TEXT,
-    last_name TEXT,
-    number INTEGER
-)""")
+# Insert one record into db
+c.execute("INSERT INTO test VALUES ('Jim', 'Jones', 285)")
 
 # Commit command
 conn.commit()
