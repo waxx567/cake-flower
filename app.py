@@ -9,8 +9,8 @@ c = conn.cursor()
 # Query database
 c.execute("SELECT * FROM test")
 
-# Prints the first tuple when input of python app.py
-print(c.fetchone())
+# Prints the first element of the first tuple when input of python app.py
+print(c.fetchone()[0])
 
 # Commit command
 conn.commit()
