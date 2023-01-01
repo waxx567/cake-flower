@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
 
+/* Background colour and opacity for header bar */
 :root {
-    --background: rgba(0, 214, 170, .25)
+    --background: rgba(0, 214, 0, .25)
 }
 
 *, *::before, *::after {
