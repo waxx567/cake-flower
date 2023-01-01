@@ -64,7 +64,7 @@ header {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
     display: block;
-    background: white;
+    background: #45f192;
     height: 2px;
     width: 2em;
     border-radius: 2px;
