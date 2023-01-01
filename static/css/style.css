@@ -24,7 +24,7 @@ body {
     background-size: cover;
     display: grid;
     place-items: center;
-    height: 100vh;
+    height: 780px;
 }
 
 /* Navigation styles start here */
@@ -73,6 +73,7 @@ header {
     border-radius: 2px;
     position: relative;
 }
+
 
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
