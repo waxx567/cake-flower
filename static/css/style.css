@@ -132,7 +132,7 @@ nav a:hover {
     background-size: cover;
     display: grid;
     place-items: center;
-    height: 840px;
+    height: 838px;
 }
 
 @media screen and (min-width: 800px) {
