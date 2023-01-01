@@ -7,7 +7,7 @@ conn = sqlite3.connect("users.db")
 c = conn.cursor()
 
 # Query database
-c.execute("SELECT rowid, * FROM test ORDER BY rowid DESC")
+c.execute("SELECT rowid, * FROM test ORDER BY last_name")
 
 items = c.fetchall()
 
