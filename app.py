@@ -7,14 +7,13 @@ conn = sqlite3.connect("users.db")
 c = conn.cursor()
 
 # Query database
-# To find out the row id of the table
-c.execute("SELECT rowid, * FROM test")
+c.execute("SELECT * FROM test")
 
 # Loop
 items = c.fetchall()
 
+# Loop through all
 for item in items:
-    # Pulls elements out of tuples
     print(item)
 
 
