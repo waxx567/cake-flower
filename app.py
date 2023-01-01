@@ -7,7 +7,7 @@ conn = sqlite3.connect("users.db")
 c = conn.cursor()
 
 # Query database
-c.execute("SELECT * FROM test WHERE last_name = 'Lowe'")
+c.execute("SELECT rowid, * FROM test WHERE last_name = 'Lowe'")
 
 # Loop
 items = c.fetchall()
