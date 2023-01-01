@@ -36,6 +36,7 @@ header {
     width: 100%;
 }
 
+/* Logo */
 .logo {
     color: #45f192;
 }
@@ -43,11 +44,11 @@ header {
 .logo span {
     color: aliceblue;
 }
-
+/* 
 .nav-toggle {
     display: none;
 }
-
+*/
 .nav-toggle-label {
     position: absolute;
     top: 0;
