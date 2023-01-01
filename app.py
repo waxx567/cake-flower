@@ -6,10 +6,14 @@ conn = sqlite3.connect("users.db")
 # Create cursor
 c = conn.cursor()
 
+# Update records
+c.execute("""UPDATE test 
+    SET last_name = 'Aikeout'
+    WHERE rowid = 1
+""")
 # Query database
-c.execute("SELECT * FROM test WHERE number < 500")
+c.execute("SELECT * FROM test)
 
-# Loop
 items = c.fetchall()
 
 # Loop through all
