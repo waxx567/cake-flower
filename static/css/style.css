@@ -19,7 +19,7 @@ body {
 .content {
     background-image: url('../img/image-16.jpg');
     background-color: #333;
-    background-blend-mode: multiply;
+    /*background-blend-mode: multiply;*/
     background-size: cover;
     display: grid;
     place-items: center;
