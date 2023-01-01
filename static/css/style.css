@@ -37,11 +37,11 @@ header {
 }
 
 .logo {
-    color: aliceblue;
+    color: #45f192;
 }
 
 .logo span {
-    color: #222;
+    color: aliceblue;
 }
 
 .nav-toggle {
