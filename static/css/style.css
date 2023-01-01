@@ -173,7 +173,7 @@ nav a:hover {
         content: '';
         display: block;
         height: 5px;
-        background: black;
+        background: #45f192;
         position: absolute;
         top: -.75em;
         left: 0;
