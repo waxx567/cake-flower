@@ -49,6 +49,7 @@ header {
     display: none;
 }
 
+/* Container for collapsed menu icon */
 .nav-toggle-label {
     position: absolute;
     top: 0;
@@ -60,6 +61,7 @@ header {
     align-items: center;
 }
 
+/* Bars for collapsed menu icon */
 .nav-toggle-label span,
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
