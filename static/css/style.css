@@ -122,7 +122,7 @@ nav a:hover {
     transition: opacity 250ms ease-in-out 250ms;
 }
 
-.content {
+.scroller {
     background-image: url('../img/image-16.jpg');
     color: aquamarine;
     padding-right: 50px;
