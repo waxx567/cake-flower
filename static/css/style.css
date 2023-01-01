@@ -2,7 +2,7 @@
 
 /* Background colour and opacity for header bar */
 :root {
-    --background: rgba(0, 0, 200, .25)
+    --background: rgba(0, 0, 100, .25)
 }
 
 *, *::before, *::after {
