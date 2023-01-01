@@ -40,6 +40,10 @@ header {
     color: aliceblue;
 }
 
+.logo span {
+    color: #333;
+}
+
 .nav-toggle {
     display: none;
 }
