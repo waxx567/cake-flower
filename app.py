@@ -7,7 +7,7 @@ conn = sqlite3.connect("users.db")
 c = conn.cursor()
 
 # Query database
-c.execute("SELECT rowid, * FROM test LIMIT 3")
+c.execute("SELECT rowid, * FROM test")
 
 items = c.fetchall()
 
