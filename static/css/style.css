@@ -44,11 +44,11 @@ header {
 .logo span {
     color: aliceblue;
 }
-/* 
+/* Hides checkbox that is selected by the program when user selects menu bars in header bar */
 .nav-toggle {
     display: none;
 }
-*/
+
 .nav-toggle-label {
     position: absolute;
     top: 0;
