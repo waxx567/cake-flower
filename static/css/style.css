@@ -130,6 +130,8 @@ nav a:hover {
     background-size: cover;
     display: grid;
     place-items: center;
+    padding-right: 50px;
+    padding-top: 737px;
     height: 837px;
 }
 
