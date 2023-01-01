@@ -19,6 +19,8 @@ body {
 .content {
     background-image: url('../img/image-16.jpg');
     color: aquamarine;
+    padding-right: 50px;
+    padding-top: 680px;
     background-color: #333;
     /*background-blend-mode: multiply;*/
     background-size: cover;
