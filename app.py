@@ -12,7 +12,7 @@ c.execute("""UPDATE test
     WHERE rowid = 1
 """)
 # Query database
-c.execute("SELECT * FROM test)
+c.execute("SELECT * FROM test")
 
 items = c.fetchall()
 
