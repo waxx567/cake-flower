@@ -6,19 +6,14 @@ conn = sqlite3.connect("users.db")
 # Create cursor
 c = conn.cursor()
 
-# Delete records
-c.execute("""DELETE FROM test 
-    WHERE rowid = 7
-""")
 # Query database
-c.execute("SELECT * FROM test")
+c.execute("SELECT rowid, * FROM test ORDER BY rowid DESC")
 
 items = c.fetchall()
 
 # Loop through all
 for item in items:
     print(item)
-
 
 # Commit command
 conn.commit()
