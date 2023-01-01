@@ -7,7 +7,8 @@ conn = sqlite3.connect("users.db")
 c = conn.cursor()
 
 # Query database
-c.execute("SELECT * FROM test")
+# To find out the row id of the table
+c.execute("SELECT rowid, * FROM test")
 
 # Loop
 items = c.fetchall()
