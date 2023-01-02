@@ -128,7 +128,7 @@ nav a:hover {
     background-color: #333;
     /*background-blend-mode: multiply;*/
     background-size: cover;
-    display: grid;
+    display: flex;
     place-items: center;
     padding-right: 50px;
     padding-top: 737px;
