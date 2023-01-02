@@ -1,13 +1,6 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
 
-/* Body */
-body {
-    margin: 0;
-    background: whitesmoke;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 400;
-}
 /* Header: background colour and opacity for header bar */
 :root {
     --background: rgba(34, 34, 34, .75)
@@ -15,6 +8,13 @@ body {
 /* Pre- & post-transitions */
 *, *::before, *::after {
     box-sizing: border-box;
+}
+/* Body */
+body {
+    margin: 0;
+    background: whitesmoke;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
 }
 /* Navigation styles start here */
 header {
