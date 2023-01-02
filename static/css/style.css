@@ -136,10 +136,6 @@ nav a:hover {
     height: 837px;
 }
 
-.scroller h2 {
-    outline: 1px solid greenyellow;
-}
-
 @media screen and (min-width: 800px) {
     .nav-toggle-label {
         display: none;
