@@ -19,10 +19,11 @@
   </head>
   <!-- Body -->
   <body>
+    {%block content%}
     <!-- Header -->
     <header>{%block header%}{%endblock%}</header>
-    {%block content%}{%endblock%}
     <!-- Footer -->
-    <footer></footer>
+    <footer>{%block footer%}{%endblock%}</footer>
+    {%endblock%}
   </body>
 </html>
