@@ -140,7 +140,7 @@ nav a:hover {
 .sc-box {
     color: black;
     text-align: right;
-    padding: 20px 40px 10px 40px;
+    padding: 10px 40px 10px 40px;
 }
 
 @media screen and (min-width: 800px) {
