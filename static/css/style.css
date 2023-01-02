@@ -196,6 +196,10 @@ nav a:hover {
     flex: 1;
 }
 
+footer {
+    text-align: center;
+}
+
 @media screen and (min-width: 800px) {
     .nav-toggle-label {
         display: none;
