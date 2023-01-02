@@ -134,7 +134,9 @@ nav a:hover {
     height: 780px;
 }
 
-
+.scr-box {
+    outline: 1px solid fuchsia;
+}
 
 .scroller p {
     outline: 1px solid forestgreen;
