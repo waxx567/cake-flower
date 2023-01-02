@@ -126,10 +126,14 @@ nav a:hover {
     background-image: url('../img/image-16.jpg');
     color: whitesmoke;
     background-color: #333;
-    /*background-blend-mode: multiply;*/
+    background-blend-mode: multiply;
     background-size: cover;
     display: flex;
     height: 780px;
+}
+
+.scroller h2 {
+
 }
 
 /* Showcase box */
