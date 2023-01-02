@@ -36,7 +36,7 @@ header {
 .nav-toggle {
     display: none;
 }
-/* Header: container for collapsed menu icon */
+/* Header: label for collapsed menu */
 .nav-toggle-label {
     position: absolute;
     top: 0;
@@ -47,7 +47,7 @@ header {
     display: flex;
     align-items: center;
 }
-/* Header: bars for collapsed menu icon */
+/* Header: span inside label for collapsed menu  */
 .nav-toggle-label span,
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
@@ -58,17 +58,17 @@ header {
     border-radius: 2px;
     position: relative;
 }
-/* Header: collapsed menu pre- & post-transitions */
+/* Header: span inside label for collapsed menu pre- & post-transitions */
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
     content: '';
     position: absolute;
 }
-/* Header: collapsed menu pre-transitions */
+/* Header: span inside label for collapsed menu pre-transitions */
 .nav-toggle-label span::before {
     bottom: 7px;
 }
-/* Header: collapsed menu post-transitions */
+/* Header: span inside label for collapsed menu post-transitions */
 .nav-toggle-label span::after {
     top: 8px;
 }
