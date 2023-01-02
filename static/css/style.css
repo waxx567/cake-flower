@@ -129,6 +129,7 @@ nav a:hover {
     /*background-blend-mode: multiply;*/
     background-size: cover;
     display: flex;
+    place-items: center;
     padding-right: 50px;
     padding-top: 737px;
     height: 837px;
