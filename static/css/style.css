@@ -133,6 +133,10 @@ nav a:hover {
     height: 780px;
 }
 
+.scroller p {
+    outline: 1px solid forestgreen;
+}
+
 .scroller h2 {
     outline: 1px solid wheat;
     padding: 100px 40px 40px 0px;
