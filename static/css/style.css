@@ -139,11 +139,11 @@ nav a:hover {
 }
 
 .scroller p {
-    outline: 1px solid forestgreen;
+    border: 1px solid forestgreen;
 }
 
 .scroller h2 {
-    outline: 1px solid wheat;
+    border: 1px solid wheat;
     padding: 0px 0px 0px 0px;
 }
 
