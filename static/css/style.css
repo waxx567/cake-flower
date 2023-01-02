@@ -27,11 +27,11 @@ header {
 
 /* Logo */
 .logo {
-    color: whitesmoke;
+    color: #45f192;
 }
 
 .logo span {
-    color: aliceblue;
+    color: whitesmoke;
 }
 /* Hides checkbox that is selected by the program when user selects menu bars in header bar */
 .nav-toggle {
