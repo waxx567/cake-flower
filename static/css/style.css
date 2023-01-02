@@ -129,11 +129,6 @@ nav a:hover {
     /*background-blend-mode: multiply;*/
     background-size: cover;
     display: flex;
-    place-items: center;
-    justify-content: center;
-    align-items: center;
-    padding-right: 40px;
-    padding-top: 660px;
     height: 780px;
 }
 
