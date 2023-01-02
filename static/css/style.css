@@ -195,8 +195,8 @@ nav a:hover {
 }
 
 footer {
-    border-top: 1px solid black;
-    color: grey;
+    border-top: 1px solid grey;
+    color: black;
     text-align: center;
 }
 
