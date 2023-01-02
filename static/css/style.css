@@ -125,7 +125,7 @@ nav a:hover {
 .scroller {
     background-image: url('../img/image-16.jpg');
     color: whitesmoke;
-    background-color: #333;
+    background-color: rgb(83, 83, 83);
     background-blend-mode: multiply;
     padding: 40px;
     background-size: cover;
@@ -134,6 +134,7 @@ nav a:hover {
 }
 
 .scroller h2 {
+    outline: 1px solid wheat;
     padding: 0px 40px 40px 0px;
 }
 
