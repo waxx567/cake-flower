@@ -136,6 +136,13 @@ nav a:hover {
     height: 837px;
 }
 
+/* Showcase box */
+.sc-box {
+    color: black;
+    text-align: right;
+    padding: 40px 40px 10px 40px;
+}
+
 @media screen and (min-width: 800px) {
     .nav-toggle-label {
         display: none;
