@@ -108,11 +108,11 @@ nav a {
 nav a:hover {
     color: #45f192;
 }
-
+/* Header: ~ looks to see if preceding sibling is checked  */
 .nav-toggle:checked ~ nav {
     transform: scale(1, 1);
 }
-
+/* Header: ~ looks to see if preceding sibling is checked  */
 .nav-toggle:checked ~ nav a {
     opacity: 1;
     transition: opacity 250ms ease-in-out 250ms;
