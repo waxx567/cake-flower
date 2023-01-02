@@ -1,21 +1,21 @@
+/* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
 
-/* Background colour and opacity for header bar */
-:root {
-    --background: rgba(34, 34, 34, .75)
-}
-
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-
+/* Body */
 body {
     margin: 0;
     background: whitesmoke;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
 }
-
+/* Background colour and opacity for header bar */
+:root {
+    --background: rgba(34, 34, 34, .75)
+}
+/* Pre & post-transitions */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 /* Navigation styles start here */
 header {
     background: var(--background);
@@ -24,12 +24,11 @@ header {
     z-index: 999;
     width: 100%;
 }
-
 /* Logo */
 .logo {
     color: #45f192;
 }
-
+/* Part of logo ia a different colour */
 .logo span {
     color: whitesmoke;
 }
@@ -122,6 +121,7 @@ nav a:hover {
     transition: opacity 250ms ease-in-out 250ms;
 }
 
+/* Content */
 .scroller {
     background-image: url('../img/image-16.jpg');
     color: whitesmoke;
