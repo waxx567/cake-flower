@@ -8,7 +8,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
 }
-/* Background colour and opacity for header bar */
+/* Header: background colour and opacity for header bar */
 :root {
     --background: rgba(34, 34, 34, .75)
 }
@@ -64,7 +64,7 @@ header {
     content: '';
     position: absolute;
 }
-/* header: collapsed menu pre-transitions */
+/* Header: collapsed menu pre-transitions */
 .nav-toggle-label span::before {
     bottom: 7px;
 }
@@ -72,7 +72,7 @@ header {
 .nav-toggle-label span::after {
     top: 8px;
 }
-
+/* Header: navbar */
 nav {
     position: absolute;
     text-align: left;
@@ -84,18 +84,18 @@ nav {
     transform-origin: top;
     transition: transform 400ms ease-in-out;
 }
-
+/* Header: navbar list */
 nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-
+/* Header: navbar list item */
 nav li {
     margin-bottom: 1em;
     margin-left: 1em;
 }
-
+/* Header: navbar link */
 nav a {
     color: white;
     text-decoration: none;
@@ -104,7 +104,7 @@ nav a {
     opacity: 0;
     transition: opacity 150ms ease-in-out;
 }
-
+/* Header: navbar link hover */
 nav a:hover {
     color: #45f192;
 }
