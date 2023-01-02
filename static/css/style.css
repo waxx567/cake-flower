@@ -197,8 +197,9 @@ nav a:hover {
 }
 
 footer {
-    background-color: aquamarine;
-    border: 1px solid gray;
+    background-color: gray;
+    border-top: 1px solid black;
+    color: aquamarine;
     text-align: center;
 }
 
