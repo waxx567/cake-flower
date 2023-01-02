@@ -130,6 +130,7 @@ nav a:hover {
     background-size: cover;
     display: flex;
     place-items: center;
+    justify-content: end;
     padding-right: 50px;
     padding-top: 737px;
     height: 837px;
