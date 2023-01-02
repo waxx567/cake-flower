@@ -153,18 +153,19 @@ nav a:hover {
     padding: 0px 40px 10px 40px;
 }
 
-/* Thumbnail box contains header and boxes  */
+/* Thumbnails */
+/* Thumbnails: container for elements */
 .tn-box {
     /*background-color: #c8d7c8;*/
     margin: 10px 10px 40px 10px;
     color: black;
 }
-/* Thumbnail Header */
+/* Thumbnails: heading */
 .tn-box > *:nth-of-type(1) {
     padding: 25px 25px 0px 40px;
     /*color: #1a4a2f;*/
 }
-/* Paragraph element inside header box */
+/* Thumbnails: paragraph element inside header box */
 .tn-heading p {
     padding: 9px 0px 0px 20px; 
 }
