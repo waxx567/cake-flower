@@ -127,6 +127,7 @@ nav a:hover {
     color: whitesmoke;
     background-color: #333;
     background-blend-mode: multiply;
+    padding: 40px;
     background-size: cover;
     display: flex;
     height: 780px;
