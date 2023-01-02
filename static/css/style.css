@@ -119,6 +119,7 @@ nav a:hover {
 }
 
 /* Content */
+/* Scroller */
 .scroller {
     background-image: url('../img/image-16.jpg');
     color: whitesmoke;
@@ -130,21 +131,22 @@ nav a:hover {
     /*display: flex;*/
     height: 780px;
 }
-
+/* Scroller: container for elements */
 .scr-box {
     margin-top: 525px;
 }
-
+/* Scroller: paragraph */
 .scroller p {
     font-weight: 500;
 }
-
+/* Scroller: heading */
 .scroller h2 {
     color: aquamarine;
     padding: 0px 0px 0px 0px;
 }
 
-/* Showcase box */
+/* Showcase */
+/* Showcase: container for elements */
 .scs-box {
     color: black;
     text-align: right;
