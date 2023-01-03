@@ -5,7 +5,7 @@
 :root {
     --background: rgba(34, 34, 34, .75)
 }
-/* Pre- & post-transitions */
+/* Size of elements to include padding pre- & post-transitions */
 *, *::before, *::after {
     box-sizing: border-box;
 }
