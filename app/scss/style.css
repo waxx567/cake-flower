@@ -27,12 +27,13 @@ body {
   align-items: center;
 }
 
-.header {
-  text-decoration: none;
-}
 .header__menu {
   display: block;
   width: 26px;
   height: 2px;
   background-color: hsl(233deg, 26%, 24%);
+}
+
+.logo {
+  text-decoration: none;
 }
