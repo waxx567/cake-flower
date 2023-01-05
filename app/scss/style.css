@@ -57,7 +57,7 @@ a, a:visited, a:hover {
 }
 
 .container {
-  padding: 1.0625rem 1.5rem;
+  padding: 0 1.5rem;
 }
 
 .flex {
@@ -116,6 +116,9 @@ button, .button {
   bottom: 0;
   left: 0;
   background-image: linear-gradient(hsl(233deg, 26%, 24%), transparent);
+}
+.header nav {
+  padding: 1.0625rem 0;
 }
 .header__logo img {
   margin-top: 0.3125rem;
