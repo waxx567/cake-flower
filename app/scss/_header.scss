@@ -32,6 +32,7 @@
         bottom: 0;
         left: 0;
         background-image: linear-gradient($darkBlue, transparent);
+        animation: fade-out 300ms ease-in-out forwards;
     }
 
     nav {
