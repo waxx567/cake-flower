@@ -144,7 +144,6 @@ button, .button {
   left: 50%;
   transform: translateX(-50%);
   background: hsl(0deg, 0%, 100%);
-  margin: 0 1.5rem;
   padding: 1.625rem;
   border-radius: 0.1875rem;
 }
