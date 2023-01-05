@@ -142,6 +142,7 @@ button, .button {
   background: hsl(0deg, 0%, 100%);
   margin: 0 1.5rem;
   padding: 1.625rem;
+  border-radius: 0.1875rem;
 }
 .header__menu a {
   display: block;
