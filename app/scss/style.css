@@ -21,10 +21,11 @@
     opacity: 1;
   }
   99% {
-    visibility: hidden;
+    visibility: visible;
     opacity: 0;
   }
   to {
+    visibility: hidden;
     opacity: 0;
   }
 }
