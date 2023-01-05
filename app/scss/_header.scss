@@ -2,6 +2,10 @@
 
     //Hamburger open styles
     &.open {
+
+        .overlay {
+            display: block;
+        }
         
         .header__menu {
             > span:first-child {
