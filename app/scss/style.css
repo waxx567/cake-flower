@@ -140,6 +140,7 @@ button, .button {
 }
 .header__menu {
   background: hsl(0deg, 0%, 100%);
+  margin: 0 1.5rem;
   padding: 1.625rem;
 }
 .header__menu a {
