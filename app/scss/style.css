@@ -134,6 +134,7 @@ button, .button {
 }
 .header__menu {
   background: hsl(0deg, 0%, 100%);
+  padding: 1.625rem 0;
 }
 .header__menu a {
   color: hsl(233deg, 26%, 24%);
