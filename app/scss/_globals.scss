@@ -5,7 +5,8 @@ html {
 
 *, *::before, *::after {
     box-sizing: inherit;
-}
+} 
+
 body {
     margin: 0;
     padding: 0;
@@ -35,4 +36,10 @@ a, a:visited, a:hover {
     &-ai-c {
         align-items: center;
     }
+}
+
+// Buttons
+button, .button {
+    padding: 1rem 1.875rem;
+    border-radius: 50px;
 }
