@@ -68,8 +68,9 @@
         padding: 1.625rem; // 26px
         
         a {
+            display: block;
+            padding: 0.625rem; // 10px
             color: $darkBlue;
-            padding: 0.625rem;
         }
     }
 
