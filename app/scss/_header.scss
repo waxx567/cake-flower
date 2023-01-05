@@ -66,6 +66,10 @@
     }
 
     &__menu {
+        position: absolute;
+        width: calc(100% - 3rem);
+        left: 50%;
+        transform: translateX(-50%);
         background: $white;
         margin: 0 1.5rem; // 0 top/bottom 24px right/left
         padding: 1.625rem; // 
