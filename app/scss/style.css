@@ -33,6 +33,9 @@ body {
   height: 2px;
   background-color: hsl(233deg, 26%, 24%);
 }
+.header__menu:not(:last-child) {
+  margin-bottom: 3px;
+}
 
 .logo {
   text-decoration: none;
