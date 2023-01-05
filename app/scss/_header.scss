@@ -65,10 +65,11 @@
 
     &__menu {
         background: $white;
-        padding: 1.625rem 0; // 26px bottom 0 right
+        padding: 1.625rem; // 26px
         
         a {
             color: $darkBlue;
+            padding: 0.625rem;
         }
     }
 
