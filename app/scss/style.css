@@ -132,6 +132,12 @@ button, .button {
 .header__toggle > span:not(:last-child) {
   margin-bottom: 0.3125rem;
 }
+.header__menu {
+  background: hsl(0deg, 0%, 100%);
+}
+.header__menu a {
+  color: hsl(233deg, 26%, 24%);
+}
 .header__links a {
   position: relative;
   font-size: 0.875rem;

@@ -46,7 +46,7 @@
         }
     }
 
-    // Mobile menu toogle
+    // Mobile menu toggle
     &__toggle {  
 
         > span {
@@ -60,6 +60,14 @@
             &:not(:last-child) {
                 margin-bottom: 0.3125rem; // 5px
             }
+        }
+    }
+
+    &__menu {
+        background: $white;
+        
+        a {
+            color: $darkBlue;
         }
     }
 
