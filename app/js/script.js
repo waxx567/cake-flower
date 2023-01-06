@@ -4,12 +4,14 @@ const overlay = document.querySelector('.overlay');
 const fadeElements = document.querySelectorAll('.has-fade');
 
 btnHamburger.addEventListener('click', function(){
-    console.log("open hamburger");
+    console.log("click hamburger");
 
     if(header.classList.contains('open')) { // Close hamburger menu
         header.classList.remove('open');
-        overlay.classList.remove('fade-in');
-        overlay.classList.add('fade-out');
+        fadeElements.forEach.(function(element){
+            element.classList.remove('fade-in');
+            element.classList.add('fade-out');
+        })
     }
     else { // Open hamburger menu
         header.classList.add('open');

@@ -26,8 +26,8 @@
         opacity: 1;
     }
     99% {
-        visibility: hidden;
-        opacity: 1;
+        visibility: visible;
+        opacity: 0;
     }
     to {
         visibility: hidden;
