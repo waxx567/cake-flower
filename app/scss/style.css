@@ -124,6 +124,8 @@ button, .button {
   background-image: linear-gradient(hsl(233deg, 26%, 24%), transparent);
 }
 .header nav {
+  position: relative;
+  background-color: hsl(0deg, 0%, 100%);
   padding-top: 1.0625rem;
   padding-bottom: 1.0625rem;
 }
