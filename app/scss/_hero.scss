@@ -13,6 +13,10 @@
         min-height: 33.125rem; //530px
         flex: 1;
 
+        @include breakpoint-up(large) {
+            flex: 1;
+        }
+
         &::before {
             content: "";
             position: absolute;
@@ -27,7 +31,10 @@
 
     &__text {
         text-align: center;
-        flex: 1;
+        
+        @include breakpoint-up(large) {
+            flex: 1;
+        }
 
         h1 {
             font-weight: 300;
