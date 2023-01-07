@@ -199,13 +199,6 @@ button, .button {
 .header__links a:hover::before {
   opacity: 1;
 }
-.header__cta {
-  color: hsl(0deg, 0%, 100%);
-  transition: opacity 300ms ease-in-out;
-}
-.header__cta:hover {
-  opacity: 0.75;
-}
 
 .hero__image {
   border: 1px solid magenta;
