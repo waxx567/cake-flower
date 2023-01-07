@@ -2,6 +2,7 @@
     @include breakpoint-up(large) {
         min-height: 41rem; // 656px
         display: flex;
+        align-items: center;
     }
 
     &__image {
