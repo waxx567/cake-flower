@@ -24,6 +24,10 @@
             //background-position: left center;
         }
 
+        &::before, &::after {
+            border: 1px solid magenta;
+        }
+        
         &::before {
             content: "";
             position: absolute;
