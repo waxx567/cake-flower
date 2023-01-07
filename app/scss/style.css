@@ -206,7 +206,7 @@ button, .button {
   background-image: url("/images/bg-intro-mobile.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center bottom;
   min-height: 17.5rem;
 }
 .hero__image::before {
