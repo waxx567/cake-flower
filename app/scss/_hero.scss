@@ -7,7 +7,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        min-height: 33rem; //280px
+        min-height: 33.125rem; //530px
 
         &::before {
             content: "";
@@ -22,6 +22,8 @@
     }
 
     &__text {
-        
+        h1 {
+            font-weight: 300;
+        }
     }
 }

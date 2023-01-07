@@ -207,7 +207,7 @@ button, .button {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  min-height: 33rem;
+  min-height: 33.125rem;
 }
 .hero__image::before {
   content: "";
@@ -218,4 +218,7 @@ button, .button {
   background-size: 93%;
   background-repeat: no-repeat;
   background-position: center bottom;
+}
+.hero__text h1 {
+  font-weight: 300;
 }
