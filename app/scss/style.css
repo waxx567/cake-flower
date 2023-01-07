@@ -269,7 +269,7 @@ button:hover, .button:hover {
   background-image: url("/images/bg-intro-desktop.svg");
   background-size: 93%;
   background-repeat: no-repeat;
-  background-position: center 15%;
+  background-position: 0% 83%;
 }
 @media (min-width: 64em) {
   .hero__image::before {
