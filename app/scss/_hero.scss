@@ -1,4 +1,7 @@
 .hero {
+    @include breakpoint-up(large) {
+        display: flex;
+    }
 
     &__image {
         border: 1px solid magenta;
