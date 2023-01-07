@@ -201,6 +201,7 @@ button, .button {
 }
 
 .hero__image {
+  border: 1px solid magenta;
   position: relative;
   background-image: url("/images/bg-intro-mobile.svg");
   background-size: cover;
