@@ -72,6 +72,12 @@ a, a:visited, a:hover {
   max-width: 69.375rem;
   margin: 0 auto;
 }
+.container--pall {
+  padding-top: 2.25rem;
+  padding-right: 1.5rem;
+  padding-bottom: 2.25rem;
+  padding-left: 1.5rem;
+}
 .container--py {
   padding-top: 2.25rem;
   padding-bottom: 2.25rem;
