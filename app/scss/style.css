@@ -98,6 +98,10 @@ button, .button {
   color: hsl(0deg, 0%, 100%);
   font-weight: 400;
   font-size: 0.875rem;
+  transition: opacity 300ms ease-in-out;
+}
+button:hover, .button:hover {
+  opacity: 0.75;
 }
 
 @media (max-width: 63.9375em) {

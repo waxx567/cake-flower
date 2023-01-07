@@ -64,8 +64,12 @@ button, .button {
     cursor: pointer;
     color: $white;
     font-weight: 400;
-    
     font-size:$font-sml14;
+    transition: opacity 300ms ease-in-out;
+
+        &:hover {
+            opacity: 0.75;
+        }
 }
 
 // Visibility
