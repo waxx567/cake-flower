@@ -6,8 +6,8 @@
         background-image: url("/images/bg-intro-mobile.svg");
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center bottom;
-        min-height: 17.5rem; //280px
+        background-position: center center;
+        min-height: 33rem; //280px
 
         &::before {
             content: "";
@@ -17,7 +17,7 @@
             background-image: url("/images/image-mockups.png");
             background-size: 93%;
             background-repeat: no-repeat;
-            background-position: center center;
+            background-position: center bottom;
         }
     }
 
