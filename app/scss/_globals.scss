@@ -33,10 +33,19 @@ a, a:visited, a:hover {
 .container {
     max-width: 69.375rem; // 1110px
     margin: 0 auto;
-    padding-top: 2.25rem; // 36px
-    padding-right: 1.5rem; // 24px
-    padding-bottom: 2.25rem; //36px
-    padding-left: 1.5rem; // 24px
+
+    &--pt {
+        padding-top: 2.25rem; // 36px
+    }
+    &--pr {
+        padding-right: 1.5rem; // 24px
+    }
+    &--pb {
+        padding-bottom: 2.25rem; // 36px
+    }
+    &--pl {
+        padding-left: 1.5rem; // 24px
+    }
 }
 
 // Flexbox
