@@ -228,12 +228,12 @@ button, .button {
 }
 .hero__text h1 {
   font-weight: 300;
-  font-size: 2.3125rem;
+  font-size: 2.25rem;
   line-height: 1.15;
   color: hsl(233deg, 26%, 24%);
   margin-bottom: 1.5rem;
 }
 .hero__text p {
   line-height: 1.5;
-  margin-bottom: 2.3125rem;
+  margin-bottom: 2.25rem;
 }
