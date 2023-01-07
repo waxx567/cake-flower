@@ -221,4 +221,6 @@ button, .button {
 }
 .hero__text h1 {
   font-weight: 300;
+  line-height: 1;
+  color: hsl(233deg, 26%, 24%);
 }
