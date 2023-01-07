@@ -89,6 +89,7 @@ a, a:visited, a:hover {
 }
 
 button, .button {
+  display: inline-block;
   padding: 0.875rem 2.1875rem;
   background: linear-gradient(to right, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
   border: 0;
@@ -96,7 +97,7 @@ button, .button {
   cursor: pointer;
   color: hsl(0deg, 0%, 100%);
   font-weight: 400;
-  display: inline-block;
+  font-size: 0.875rem;
 }
 
 @media (max-width: 63.9375em) {
@@ -199,7 +200,6 @@ button, .button {
   opacity: 1;
 }
 .header__cta {
-  font-size: 0.875rem;
   color: hsl(0deg, 0%, 100%);
   transition: opacity 300ms ease-in-out;
 }
