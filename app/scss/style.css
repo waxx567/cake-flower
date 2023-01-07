@@ -228,3 +228,6 @@ button, .button {
   line-height: 1.15;
   color: hsl(233deg, 26%, 24%);
 }
+.hero__text p {
+  line-height: 1.5;
+}
