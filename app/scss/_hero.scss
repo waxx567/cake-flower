@@ -1,5 +1,6 @@
 .hero {
     @include breakpoint-up(large) {
+        min-height: 41rem; // 656px
         display: flex;
     }
 
@@ -10,7 +11,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        min-height: 17.5rem; //280px
+        min-height: 33rem; //528px
         @include breakpoint-up(large) {
             flex: 1;
             order: 2;
@@ -24,7 +25,7 @@
             background-image: url("/images/image-mockups.png");
             background-size: 93%;
             background-repeat: no-repeat;
-            background-position: center center;
+            background-position: center bottom;
         }
     }
 

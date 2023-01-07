@@ -206,6 +206,7 @@ button:hover, .button:hover {
 
 @media (min-width: 64em) {
   .hero {
+    min-height: 41rem;
     display: flex;
   }
 }
@@ -216,7 +217,7 @@ button:hover, .button:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  min-height: 17.5rem;
+  min-height: 33rem;
 }
 @media (min-width: 64em) {
   .hero__image {
@@ -232,7 +233,7 @@ button:hover, .button:hover {
   background-image: url("/images/image-mockups.png");
   background-size: 93%;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center bottom;
 }
 .hero__text {
   text-align: center;
