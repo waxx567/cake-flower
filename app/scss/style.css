@@ -224,6 +224,7 @@ button:hover, .button:hover {
     order: 2;
     height: 41rem;
     background-image: url("/images/bg-intro-desktop.svg");
+    background-position: left center;
   }
 }
 .hero__image::before {
@@ -235,6 +236,7 @@ button:hover, .button:hover {
   background-size: 93%;
   background-repeat: no-repeat;
   background-position: center bottom;
+  top: 10%;
 }
 .hero__text {
   text-align: center;
