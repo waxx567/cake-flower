@@ -15,9 +15,11 @@
         background-repeat: no-repeat;
         background-position: center center;
         min-height: 17.5rem; //528px
+
         @include breakpoint-up(medium) {
             min-height: 25rem; // 400px
         }
+        
         @include breakpoint-up(large) {
             flex: 3;
             order: 2;
