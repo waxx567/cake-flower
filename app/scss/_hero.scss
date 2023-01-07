@@ -12,7 +12,7 @@
         background-position: center center;
         min-height: 33rem; //528px
         @include breakpoint-up(large) {
-            flex: 1;
+            flex: 3;
             order: 2;
             height: 41rem; // 656px
             background-image: url("/images/bg-intro-desktop.svg");
@@ -35,7 +35,8 @@
         text-align: center;
         
         @include breakpoint-up(large) {
-            flex: 1;
+            flex: 2;
+            order: 1;
         }
 
         h1 {
