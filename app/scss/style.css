@@ -258,9 +258,6 @@ button:hover, .button:hover {
     background-image: none;
   }
 }
-.hero__image::before, .hero__image::after {
-  border: 1px solid magenta;
-}
 .hero__image::before {
   content: "";
   position: absolute;
@@ -287,6 +284,15 @@ button:hover, .button:hover {
   background-size: 93%;
   background-repeat: no-repeat;
   background-position: center bottom;
+}
+@media (min-width: 64em) {
+  .hero__image::after {
+    width: 120%;
+    height: 122%;
+    background-size: 94%;
+    background-position: center 150%;
+    left: 22%;
+  }
 }
 .hero__text {
   text-align: center;
