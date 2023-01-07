@@ -237,7 +237,7 @@ button:hover, .button:hover {
   background-color: hsl(0deg, 0%, 98%);
 }
 @media (min-width: 64em) {
-  .hero {
+  .hero .container {
     display: flex;
     align-items: center;
   }
@@ -255,19 +255,30 @@ button:hover, .button:hover {
     flex: 3;
     order: 2;
     height: 41rem;
-    background-image: url("/images/bg-intro-desktop.svg");
-    background-position: left center;
+    background-image: none;
   }
 }
 .hero__image::before {
   content: "";
   position: absolute;
-  width: 100%;
+  width: 150%;
   height: 100%;
-  background-image: url("/images/image-mockups.png");
+  background-image: url("/images/bg-intro-desktop.svg");
   background-size: 93%;
   background-repeat: no-repeat;
   background-position: center bottom;
+}
+.hero__image::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/image-mockups.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  left: 26%;
+  transform: translateY(5%);
 }
 .hero__text {
   text-align: center;
