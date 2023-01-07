@@ -96,6 +96,7 @@ button, .button {
   cursor: pointer;
   color: hsl(0deg, 0%, 100%);
   font-weight: 400;
+  display: inline-block;
 }
 
 @media (max-width: 63.9375em) {
