@@ -224,6 +224,7 @@ button:hover, .button:hover {
   .hero__image {
     flex: 1;
     order: 2;
+    height: 100%;
   }
 }
 .hero__image::before {
