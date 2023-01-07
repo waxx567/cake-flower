@@ -46,6 +46,9 @@
             line-height: 1.15;
             color: $darkBlue;
             margin-bottom: 1.5rem; // 24px
+            @include breakpoint-up(large) {
+                font-size: $font-xlg52;
+            }
         }
 
         p {

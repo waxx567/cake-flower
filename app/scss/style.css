@@ -278,6 +278,11 @@ button:hover, .button:hover {
   color: hsl(233deg, 26%, 24%);
   margin-bottom: 1.5rem;
 }
+@media (min-width: 64em) {
+  .hero__text h1 {
+    font-size: 3.25rem;
+  }
+}
 .hero__text p {
   line-height: 1.5;
   margin-bottom: 2.25rem;
