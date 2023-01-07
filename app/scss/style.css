@@ -231,6 +231,7 @@ button, .button {
   font-size: 2.3125;
   line-height: 1.15;
   color: hsl(233deg, 26%, 24%);
+  margin-bottom: 1.5rem;
 }
 .hero__text p {
   line-height: 1.5;
