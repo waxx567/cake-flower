@@ -217,6 +217,7 @@ button:hover, .button:hover {
   background-repeat: no-repeat;
   background-position: center center;
   min-height: 33.125rem;
+  flex: 1;
 }
 .hero__image::before {
   content: "";
@@ -230,6 +231,7 @@ button:hover, .button:hover {
 }
 .hero__text {
   text-align: center;
+  flex: 1;
 }
 .hero__text h1 {
   font-weight: 300;
