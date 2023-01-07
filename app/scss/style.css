@@ -223,6 +223,7 @@ button:hover, .button:hover {
     flex: 1;
     order: 2;
     height: 41rem;
+    background-image: url("/images/bg-intro-desktop.svg");
   }
 }
 .hero__image::before {
