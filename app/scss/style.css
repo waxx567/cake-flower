@@ -254,8 +254,13 @@ button:hover, .button:hover {
   .hero__image {
     flex: 3;
     order: 2;
-    height: 41rem;
+    height: 17.5rem;
     background-image: none;
+  }
+}
+@media (min-width: 64em) and (min-width: 40em) {
+  .hero__image {
+    min-height: 25rem;
   }
 }
 @media (min-width: 64em) {
