@@ -219,6 +219,9 @@ button, .button {
   background-repeat: no-repeat;
   background-position: center bottom;
 }
+.hero__text {
+  text-align: center;
+}
 .hero__text h1 {
   font-weight: 300;
   font-size: 2.3125;
