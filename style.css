@@ -89,12 +89,19 @@ body {
 }
 
 .content-grid > * {
-    border: 1px solid orangered;
+    border: 2px solid orange;
 }
 
-.card-front,
-.card-back {
-    border: 1px solid limegreen;
+.card-front, .card-back {
+    border: 5px solid limegreen;
+}
+
+.card-front {
+    border-color: firebrick;
+}
+
+.card-front > *:not(.card-front__bg) {
+    position: absolute;
 }
 
 /*
