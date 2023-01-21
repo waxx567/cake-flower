@@ -92,6 +92,11 @@ body {
     border: 1px solid orangered;
 }
 
+.card-front,
+.card-back {
+    border: 1px solid limegreen;
+}
+
 /*
 img {
   max-width: 100%;
