@@ -1,21 +1,215 @@
-/* Colours */
-.primary { /* active input border colour */
-    padding: 1rem;
-    background: linear-gradient(to right, hsl(249, 99%, 64%), hsl(278, 94%, 30%));
-} 
 
-.red { /* input errors colour */
-    background: hsl(0, 100%, 66%);
+Skip to content
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+@waxx567
+kevin-powell /
+fem-credit-card-form
+Public
+
+Fork your own copy of kevin-powell/fem-credit-card-form
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+
+    Insights
+
+fem-credit-card-form/style.css
+@kevin-powell
+kevin-powell first commit
+Latest commit e014491 Jan 18, 2023
+History
+1 contributor
+168 lines (139 sloc) 2.57 KB
+:root {
+  /* either --dark-mode or --no-dark-mode */
+  --color-scheme: var(--dark-mode);
+
+  --font-family: "Space Grotesk", sans-serif;
+  --fs-400: 1rem;
+  --fs-500: 1.125rem;
+  --fw-regular: 400;
+  --fw-semi-bold: 500;
+
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-200: hsl(270, 3%, 87%);
+  --clr-neutral-300: hsl(279, 6%, 55%);
+  --clr-primary-400: hsl(249, 99%, 64%);
+  --clr-primary-500: hsl(278, 94%, 30%);
+  --clr-primary-800: hsl(278, 68%, 11%);
+  --clr-accent-400: hsl(0, 100%, 66%);
+  --gradient-1: var(--clr-primary-400, --clr-primary-500);
+
+  /* settings */
+  --no-dark-mode: light;
+  --dark-mode: dark light;
 }
 
-.light-grey-violet {
-    background: hsl(270, 3%, 87%);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-.dark-grey-violet {
-    background: hsl(279, 6%, 55%);
+html {
+  color-scheme: var(--color-scheme);
 }
 
-.dark-violet {
-    background: hsl(278, 68%, 11%);
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  font-size: var(--fs-400);
+  line-height: 1.6;
 }
+
+.container {
+  width: min(50rem, 100% - 2rem);
+  margin-inline: auto;
+}
+
+.site-title {
+  font-size: var(--fs-900);
+  line-height: 1.05;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-size: var(--fs-800);
+  line-height: 1.1;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.form {
+  background: hsl(0 0% 50% / 0.2);
+  display: grid;
+  place-content: center;
+}
+
+.content-grid {
+  max-inline-size: 1200px;
+  padding-inline: 2rem;
+  margin-inline: auto;
+  min-block-size: 100vh;
+  min-block-size: 100dvh;
+  display: grid;
+}
+
+@media (min-width: 960px) {
+  .content-grid {
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.card-previews {
+  position: relative;
+}
+
+.card-front {
+  --card-padding: 2rem;
+
+  z-index: 2;
+  top: 35%;
+}
+
+.card-back {
+  right: 0;
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: min-content;
+}
+
+.card-front > *:not(.card-front__bg),
+.card-back > *:not(.card-back__bg) {
+  position: absolute;
+}
+
+.card-front__bg,
+.card-back__bg {
+  max-width: revert;
+}
+
+.card-front__logo {
+  top: var(--card-padding);
+  left: var(--card-padding);
+}
+
+.card-front__number {
+  top: 50%;
+  left: var(--card-padding);
+  font-size: 1.925rem;
+}
+
+.card-front__name {
+  bottom: var(--card-padding);
+  left: var(--card-padding);
+}
+
+.card-front__expiry {
+  right: var(--card-padding);
+  bottom: var(--card-padding);
+}
+
+.card-back__cvc {
+  right: 3.5rem;
+  top: 44%;
+}
+
+@media (min-width: 960px) {
+  .card-previews {
+    display: grid;
+    gap: 2rem;
+  }
+
+  .card-front,
+  .card-back {
+    inset: revert;
+    position: relative;
+  }
+
+  .card-back {
+    margin-left: auto;
+  }
+}
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
+fem-credit-card-form/style.css at master · kevin-powell/fem-credit-card-form
