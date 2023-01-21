@@ -1,33 +1,3 @@
-
-Skip to content
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
-@waxx567
-kevin-powell /
-fem-credit-card-form
-Public
-
-Fork your own copy of kevin-powell/fem-credit-card-form
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-
-    Insights
-
-fem-credit-card-form/style.css
-@kevin-powell
-kevin-powell first commit
-Latest commit e014491 Jan 18, 2023
-History
-1 contributor
-168 lines (139 sloc) 2.57 KB
 :root {
   /* either --dark-mode or --no-dark-mode */
   --color-scheme: var(--dark-mode);
@@ -79,7 +49,7 @@ body {
   line-height: 1.05;
   text-transform: uppercase;
 }
-
+/*
 .section-title {
   font-size: var(--fs-800);
   line-height: 1.1;
@@ -94,11 +64,13 @@ body {
   white-space: nowrap;
   width: 1px;
 }
-
+*/
 .form {
   background: hsl(0 0% 50% / 0.2);
   display: grid;
   place-content: center;
+
+  border: 1px solid orangered;
 }
 
 .content-grid {
@@ -118,6 +90,8 @@ body {
   }
 }
 
+
+/*
 img {
   max-width: 100%;
   display: block;
@@ -125,6 +99,8 @@ img {
 
 .card-previews {
   position: relative;
+
+  border: 1px solid orangered;
 }
 
 .card-front {
@@ -196,20 +172,4 @@ img {
     margin-left: auto;
   }
 }
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-
-    Terms
-    Privacy
-    Security
-    Status
-    Docs
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
-
-fem-credit-card-form/style.css at master · kevin-powell/fem-credit-card-form
+*/
