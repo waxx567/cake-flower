@@ -63,8 +63,7 @@ body {
   position: absolute;
   white-space: nowrap;
   width: 1px;
-}
-*/
+}*/
 .form {
   background: hsl(0 0% 50% / 0.2);
   display: grid;
@@ -92,25 +91,58 @@ body {
     border: 2px solid blue;
 }
 
-.card-front, .card-back {
-    border: 5px solid limegreen;
+img {
+    max-width: 100%;
+    display: block;
 }
 
 .card-front {
-    width: min-content;
-    border-color: red;
+    --vertical-padding: 1.75rem;
+    --horizontal-padding: 2rem;
 }
 
-.card-front > *:not(.card-front__bg) {
+.card-front,
+.card-back {
+    position: relative;
+    width: min-content;
+    border-color: red;
+
+    border: 5px solid limegreen;
+}
+
+.card-front > *:not(.card-front__bg),
+.card-back > *:not(.card-back__bg) {
     position: absolute;
 }
 
-/*
-img {
-  max-width: 100%;
-  display: block;
+.card-front__bg,
+.card-back__bg {
+    max-width: revert;
 }
 
+.card-front__logo {
+    top: var(--vertical-padding);
+    left: var(--horizontal-padding);
+}
+
+.card-front__number {
+    font-size: 1.925rem;
+    top: 55%;
+    left: var(--horizontal-padding);
+}
+
+.card-front__name {
+    bottom: 1.75rem;
+    left: var(--horizontal-padding);
+    text-transform: uppercase;
+}
+
+.card-front__expiry {
+    right: var(--horizontal-padding);
+    bottom: 1.75rem;
+    text-transform: uppercase;
+}
+/*
 .card-previews {
   position: relative;
 
