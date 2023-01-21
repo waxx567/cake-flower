@@ -139,8 +139,13 @@ img {
 
 .card-front__expiry {
     right: var(--horizontal-padding);
-    bottom: 1.75rem;
+    bottom: var(--vertical-padding);
     text-transform: uppercase;
+}
+
+.card-back__cvc {
+    right: 3.5rem;
+    top: 44%;
 }
 /*
 .card-previews {
