@@ -1,5 +1,21 @@
 /* Colours */
-.primary {
+.primary { /* active input border colour */
     padding: 1rem;
     background: linear-gradient(to right, hsl(249, 99%, 64%), hsl(278, 94%, 30%));
 } 
+
+.red { /* input errors colour */
+    background: hsl(0, 100%, 66%);
+}
+
+.light-grey-violet {
+    background: hsl(270, 3%, 87%);
+}
+
+.dark-grey-violet {
+    background: hsl(279, 6%, 55%);
+}
+
+.dark-violet {
+    background: hsl(278, 68%, 11%);
+}
