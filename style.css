@@ -97,13 +97,14 @@ img {
 }
 
 .card-front {
+    z-index: 2;
     --vertical-padding: 1.75rem;
     --horizontal-padding: 2rem;
 }
 
 .card-front,
 .card-back {
-    position: relative;
+    position: absolute;
     width: min-content;
     border-color: red;
 
@@ -147,80 +148,3 @@ img {
     right: 3.5rem;
     top: 44%;
 }
-/*
-.card-previews {
-  position: relative;
-
-  border: 1px solid orangered;
-}
-
-.card-front {
-  --card-padding: 2rem;
-
-  z-index: 2;
-  top: 35%;
-}
-
-.card-back {
-  right: 0;
-}
-
-.card-front,
-.card-back {
-  position: absolute;
-  width: min-content;
-}
-
-.card-front > *:not(.card-front__bg),
-.card-back > *:not(.card-back__bg) {
-  position: absolute;
-}
-
-.card-front__bg,
-.card-back__bg {
-  max-width: revert;
-}
-
-.card-front__logo {
-  top: var(--card-padding);
-  left: var(--card-padding);
-}
-
-.card-front__number {
-  top: 50%;
-  left: var(--card-padding);
-  font-size: 1.925rem;
-}
-
-.card-front__name {
-  bottom: var(--card-padding);
-  left: var(--card-padding);
-}
-
-.card-front__expiry {
-  right: var(--card-padding);
-  bottom: var(--card-padding);
-}
-
-.card-back__cvc {
-  right: 3.5rem;
-  top: 44%;
-}
-
-@media (min-width: 960px) {
-  .card-previews {
-    display: grid;
-    gap: 2rem;
-  }
-
-  .card-front,
-  .card-back {
-    inset: revert;
-    position: relative;
-  }
-
-  .card-back {
-    margin-left: auto;
-  }
-}
-*/
