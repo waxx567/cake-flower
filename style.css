@@ -43,7 +43,7 @@ body {
   width: min(50rem, 100% - 2rem);
   margin-inline: auto;
 }
-/*
+
 .site-title {
   font-size: var(--fs-900);
   line-height: 1.05;
@@ -54,7 +54,7 @@ body {
   font-size: var(--fs-800);
   line-height: 1.1;
 }
-
+/*
 .visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -69,8 +69,6 @@ body {
   background: hsl(0 0% 50% / 0.2);
   display: grid;
   place-content: center;
-
-  border: 1px solid orangered;
 }
 
 .content-grid {
@@ -90,6 +88,9 @@ body {
   }
 }
 
+.content-grid > * {
+    border: 1px solid orangered;
+}
 
 /*
 img {
