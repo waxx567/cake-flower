@@ -43,13 +43,13 @@ body {
   width: min(50rem, 100% - 2rem);
   margin-inline: auto;
 }
-
+/*
 .site-title {
   font-size: var(--fs-900);
   line-height: 1.05;
   text-transform: uppercase;
 }
-/*
+
 .section-title {
   font-size: var(--fs-800);
   line-height: 1.1;
