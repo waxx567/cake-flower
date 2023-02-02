@@ -66,6 +66,8 @@ nav {
 
         flex-direction: column;
         padding: min(30vh, 10rem) 2rem;
+
+        transform: translateX(100%);
     }
 
     .mobile-nav-toggle {
