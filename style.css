@@ -101,3 +101,9 @@ nav {
         display: none;
     }
 }
+
+@media (min-width: 35em) {
+    .primary-navigation {
+        padding: 1rem;
+    }
+}
