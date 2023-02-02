@@ -46,7 +46,9 @@ nav {
         inset: 0 0 0 30%;
 
         flex-direction: column;
-        background: linear-gradient(magenta, slateblue);
+        padding: min(30vh, 10rem) 2rem;
+
+        background: hsl(0 0% 100% / 0.1);
     }
 }
 
