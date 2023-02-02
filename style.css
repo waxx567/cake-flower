@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url("/background-home-mobile.jpg");
+    background-image: url("/background-home-tablet.jpg");
     background-repeat: no-repeat;
     background-position: cover;
 }
@@ -69,6 +69,7 @@ nav {
     }
 
     .mobile-nav-toggle {
+        display: block;
         position: absolute;
         z-index: 9999;
         background: url("/icon-hamburger.svg");
