@@ -28,6 +28,9 @@ nav {
     margin: 0;
     padding: 0;
     list-style: none;
+    
+    background: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(0.5rem);
 }
 
 .primary-navigation a {
@@ -47,9 +50,6 @@ nav {
 
         flex-direction: column;
         padding: min(30vh, 10rem) 2rem;
-
-        background: hsl(0 0% 100% / 0.1);
-        backdrop-filter: blur(0.5rem);
     }
 }
 
