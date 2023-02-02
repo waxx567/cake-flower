@@ -3,7 +3,12 @@
     gap: var(--gap, 2rem);
 }
 
+.logo {
+    margin: 2rem;
+}
+
 nav {
     text-transform: uppercase;
     text-decoration: underline;
 }
+
