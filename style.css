@@ -9,6 +9,7 @@
 
 .primary-header {
     align-items: center;
+    justify-content: space-between;
 }
 
 nav {
