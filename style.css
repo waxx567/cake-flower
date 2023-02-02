@@ -9,10 +9,10 @@ body {
 
 .logo {
     margin: 2rem;
+}
 
-    > * {
-        color: white;
-    }
+.logo > * {
+    color: white;
 }
 
 .primary-header {
