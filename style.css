@@ -70,7 +70,7 @@ nav {
         padding: min(30vh, 10rem) 2rem;
 
         transform: translateX(100%);
-        transition: transform 300ms ease-in-out;
+        transition: transform 300ms ease-out;
     }
 
     .primary-navigation[data-visible="true"] {
@@ -81,6 +81,7 @@ nav {
         display: block;
         position: absolute;
         z-index: 9999;
+        background-color: transparent;
         background: url("/icon-hamburger.svg");
         background-repeat: no-repeat;
         width: 2rem;
@@ -88,6 +89,10 @@ nav {
         aspect-ratio: 1;
         top: 2rem;
         right: 2rem;
+    }
+
+    .mobile-nav-toggle[aria-expanded="true"] {
+        background-image: url("/icon-close.svg");
     }
 }
 
