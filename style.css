@@ -3,14 +3,21 @@
     gap: var(--gap, 2rem);
 }
 
+body {
+    background-image: url("/bg.jpg");
+}
+
 .logo {
     margin: 2rem;
+
+    > * {
+        color: white;
+    }
 }
 
 .primary-header {
     align-items: center;
     justify-content: space-between;
-    background-image: url("/bg.jpg");
 }
 
 nav {
