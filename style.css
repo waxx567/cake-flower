@@ -7,6 +7,8 @@ body {
     background-image: url("/background-home-tablet.jpg");
     background-repeat: no-repeat;
     background-position: cover;
+
+    overflow-x: hidden;
 }
 
 .logo {
