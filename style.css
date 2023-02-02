@@ -7,6 +7,10 @@
     margin: 2rem;
 }
 
+.primary-header {
+    align-items: center;
+}
+
 nav {
     text-transform: uppercase;
     text-decoration: underline;
