@@ -38,10 +38,34 @@
     font-size: var(--fs-400);
     line-height: 1.6;
   }
+
+  .form {
+    background: hsl(0 0% 50% / 0.2);
+    display: grid;
+    place-content: center;
+  }
+  
+  .content-grid {
+    max-inline-size: 1200px;
+    padding-inline: 2rem;
+    margin-inline: auto;
+    min-block-size: 100vh;
+    min-block-size: 100dvh;
+    display: grid;
+  }
   
   .content-grid > * {
-    height: 50vh;
+    height: 495px;
     border: 1px solid blue;
+  }
+
+  @media (min-width: 960px) {
+    .content-grid {
+      display: grid;
+      align-items: center;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+    }
   }
 
   img {
@@ -58,6 +82,10 @@
 
     z-index: 2;
     bottom: 0;
+  }
+
+  .card-back {
+    right: 0;
   }
 
   .card-front,
@@ -101,4 +129,11 @@
   .card-back__cvc {
     right: 3.5rem;
     top: 44%;
+  }
+
+  @media (min-width: 960px) {
+    .card-front,
+    .card-back {
+        position: relative;
+    }
   }
