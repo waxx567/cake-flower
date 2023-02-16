@@ -48,6 +48,10 @@
     display: block;
   }
 
+  .card-front {
+    --card-padding: 2rem;
+  }
+
   .card-front,
   .card-back {
     position: relative;
@@ -68,13 +72,20 @@
   .card-front__logo {
     top: 2rem;
     left: 2rem;
-  }
+  } 
 
   .card-front__number {
+    top: 55%;
+    left: 2rem;
     font-size: 1.925rem; 
   }
 
   .card-front__name {
     bottom: 2rem;
     left: 2rem;
+  }
+
+  .card-front__expiry {
+    right: 2rem;
+    bottom: 2rem;
   }
