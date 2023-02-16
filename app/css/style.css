@@ -73,3 +73,8 @@
   .card-front__number {
     font-size: 1.925rem; 
   }
+
+  .card-front__name {
+    bottom: 2rem;
+    left: 2rem;
+  }
