@@ -31,7 +31,7 @@
   html {
     color-scheme: var(--color-scheme);
   }
-  
+   
   body {
     margin: 0;
     font-family: var(--font-family);
@@ -40,14 +40,26 @@
   }
   
   .content-grid > * {
-    border: 1px solid orangered;
+    border: 1px solid blue;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
   }
 
   .card-front,
   .card-back {
-    border: 1px solid lime;
+    width: min-content ;
+    border: 1px solid salmon;
   }
 
-  .card-front > * {
+  .card-front > *:not(.card-front__bg),
+  .card-back > *:not(.card-back__bg) {
     position: absolute;
+  }
+
+  .card-front__bg,
+  .card-back__bg {
+    max-width: revert;
   }
