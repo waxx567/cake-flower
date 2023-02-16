@@ -160,9 +160,14 @@
     .card-back {
       inset: revert;
       position: relative;
+      border: 1px solid lime;
     }
   
     .card-back {
       margin-left: auto;
     }
   }  
+
+  .content-grid > * {
+    border: 1px solid orangered;
+  }
