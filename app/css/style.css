@@ -70,22 +70,22 @@
   }
 
   .card-front__logo {
-    top: 2rem;
-    left: 2rem;
+    top: var(--card-padding);
+    left: var(--card-padding);
   } 
 
   .card-front__number {
     top: 55%;
-    left: 2rem;
+    left: var(--card-padding);
     font-size: 1.925rem; 
   }
 
   .card-front__name {
-    bottom: 2rem;
-    left: 2rem;
+    bottom: var(--card-padding);
+    left: var(--card-padding);
   }
 
   .card-front__expiry {
-    right: 2rem;
-    bottom: 2rem;
+    right: var(--card-padding);
+    bottom: var(--card-padding);
   }
