@@ -49,12 +49,13 @@
   }
 
   .card-front {
+    z-index: 2;
     --card-padding: 2rem;
   }
 
   .card-front,
   .card-back {
-    position: relative;
+    position: absolute;
     width: min-content ;
     border: 1px solid salmon;
   }
@@ -88,4 +89,9 @@
   .card-front__expiry {
     right: var(--card-padding);
     bottom: var(--card-padding);
+  }
+
+  .card-back__cvc {
+    right: 3.5rem;
+    top: 44%;
   }
