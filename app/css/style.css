@@ -1,0 +1,11 @@
+@media (min-width: 960px) {
+    .content-grid {
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+}
+
+.content-grid > * {
+    border: 1px solid orangered;
+}
