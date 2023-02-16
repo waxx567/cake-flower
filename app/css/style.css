@@ -55,7 +55,6 @@
   }
   
   .content-grid > * {
-    height: 495px;
     border: 1px solid blue;
   }
 
@@ -81,11 +80,12 @@
     --card-padding: 2rem;
 
     z-index: 2;
-    bottom: 0;
+    top: 35%;
   }
 
   .card-back {
     right: 0;
+    bottom: 2rem;
   }
 
   .card-front,
@@ -129,11 +129,4 @@
   .card-back__cvc {
     right: 3.5rem;
     top: 44%;
-  }
-
-  @media (min-width: 960px) {
-    .card-front,
-    .card-back {
-        position: relative;
-    }
   }
