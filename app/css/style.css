@@ -47,3 +47,7 @@
   .card-back {
     border: 1px solid lime;
   }
+
+  .card-front > * {
+    position: absolute;
+  }
