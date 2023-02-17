@@ -53,7 +53,6 @@
     place-content: left;
 
     z-index: 1;
-    padding: 8rem 3rem;
   }
   
   .content-grid {
@@ -88,12 +87,12 @@
   .card-front {
     --card-padding: 2rem;
 
-    z-index: 2;
+    z-index: 44;
     top: 44%;
   }
 
   .card-back {
-    z-index: 1;
+    z-index: 12;
     right: 3%;
   }
 
@@ -185,7 +184,14 @@
         padding-left: 7rem;
     }
 
+    .expiry-box {
+        margin: 0;
+        padding: 0;
+    }
+
     .desktop-boxes {
         opacity: 1;
     }
   }
+
+  
