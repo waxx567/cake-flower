@@ -1,6 +1,6 @@
 :root {
     /* either --dark-mode or --no-dark-mode */
-    --color-scheme: var(--dark-mode);
+    --color-scheme: var(--no-dark-mode);
   
     --font-family: "Space Grotesk", sans-serif;
     --fs-400: 1rem;
@@ -48,24 +48,19 @@
 
 
   .form {
-    background: hsl(0 0% 50% / 0.2);
+    background: var(--clr-neutral-100);
     display: grid;
     place-content: center;
-    
+
     z-index: 1;
   }
   
   .content-grid {
     max-inline-size: 1200px;
-    padding-inline: 2rem;
     margin-inline: auto;
     min-block-size: 100vh;
     min-block-size: 100dvh;
     display: grid;
-  }
-  
-  .content-grid > * {
-    border: 2px solid blue;
   }
 
   @media (min-width: 960px) {
@@ -105,8 +100,7 @@
   .card-front,
   .card-back {
     position: absolute;
-    width: min-content ;
-    border: 1px solid lawngreen;
+    width: min-content;
   }
 
   .card-front > *:not(.card-front__bg),
@@ -147,6 +141,31 @@
     top: 44%;
   }
 
+  .desktop-boxes {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    opacity: 0;
+  }
+  
+  .right-box,
+  .left-box {
+    position: relative;
+    top: 0;
+  }
+
+  .right-box {
+    width: 70%;
+    background-color: var(--clr-neutral-100);
+  }
+
+  .left-box {
+    width: 30%;
+    background-image: linear-gradient(150deg, var(--clr-primary-500), var(--clr-primary-800), var(--clr-primary-800));
+  }
+
   @media (min-width: 960px) {
     .card-previews {
       display: grid;
@@ -163,30 +182,9 @@
     .card-back {
       margin-left: auto;
     }
-  }
 
-  .desktop-boxes {
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    top: 0;
-  }
-  
-  .right-box,
-  .left-box {
-    position: relative;
-    top: 0;
-    border: 1px solid hotpink;
-  }
-
-  .right-box {
-    width: 70%;
-    background-color: var(--clr-neutral-100);
-  }
-
-  .left-box {
-    width: 30%;
-    background-image: linear-gradient(150deg, var(--clr-primary-500), var(--clr-primary-800), var(--clr-primary-800));
+    .desktop-boxes {
+        opacity: 1;
+    }
   }
 
