@@ -53,6 +53,7 @@
     place-content: left;
 
     z-index: 1;
+    padding: 8rem 3rem;
   }
   
   .content-grid {
@@ -188,4 +189,3 @@
         opacity: 1;
     }
   }
-
