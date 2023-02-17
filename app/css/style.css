@@ -1,6 +1,6 @@
 :root {
     /* either --dark-mode or --no-dark-mode */
-    --color-scheme: var(--dark-mode);
+    --color-scheme: var(--no-dark-mode);
   
     --font-family: "Space Grotesk", sans-serif;
     --fs-400: 1rem;
@@ -50,7 +50,7 @@
   .form {
     background: var(--clr-neutral-100);
     display: grid;
-    place-content: center;
+    place-content: left;
 
     z-index: 1;
   }
