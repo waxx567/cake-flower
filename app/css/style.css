@@ -55,7 +55,7 @@
   }
   
   .content-grid > * {
-    border: 1px solid blue;
+    border: 2px solid blue;
   }
 
   @media (min-width: 960px) {
@@ -81,11 +81,6 @@
 
     z-index: 2;
     top: 35%;
-  }
-
-  .card-back {
-    right: 0;
-    bottom: 2rem;
   }
 
   .card-front,
