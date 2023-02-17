@@ -45,6 +45,8 @@
     line-height: 1.6;
   }
 
+
+
   .form {
     background: hsl(0 0% 50% / 0.2);
     display: grid;
@@ -161,7 +163,9 @@
   }
 
   .desktop-boxes {
+    position: absolute;
     display: flex;
+    top: 0;
   }
   
   .right-box,
@@ -173,9 +177,12 @@
 
   .right-box {
     width: 70%;
+    left: 30%;
+    background-color: var(--clr-neutral-100);
   }
 
   .left-box {
     width: 30%;
+    background-image: linear-gradient(150deg, var(--clr-primary-500), var(--clr-primary-800), var(--clr-primary-800));
   }
 
