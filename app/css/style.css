@@ -79,7 +79,6 @@
 
   .card-previews {
     position: relative;
-
     padding: 2rem 1rem 0;
 
     background-image: linear-gradient(225deg, var(--clr-primary-500), var(--clr-primary-800), var(--clr-primary-800));
@@ -171,6 +170,8 @@
       display: grid;
       gap: 2rem;
       background-image: none;
+      padding-right: 0;
+      padding-left: 4rem;
     }
   
     .card-front,
@@ -180,7 +181,7 @@
     }
   
     .card-back {
-      margin-left: auto;
+        padding-left: 7rem;
     }
 
     .desktop-boxes {
