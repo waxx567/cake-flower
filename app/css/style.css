@@ -142,6 +142,10 @@
     top: 44%;
   }
 
+  textarea {
+    width: 85%;
+  }
+
   .desktop-boxes {
     position: absolute;
     display: flex;
