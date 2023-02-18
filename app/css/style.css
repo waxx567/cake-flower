@@ -51,7 +51,9 @@
     background: var(--clr-neutral-100);
     display: grid;
     place-content: left;
+    align-items: end;
 
+    padding-left: 3rem;
     z-index: 1;
   }
   
