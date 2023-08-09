@@ -633,29 +633,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-# 2023/08/05 9:05am
-
-Having too many problems working in the Codespace. Shifting to developing in my local VS Code IDE. Going to start from scratch with the React app. The code can be followed on my github: https://github.com/waxx567 in the fivefiftyfive/dashboard folder
-
-# 2023/08/06 10:12am
-
-Back to local
-
-# 2023/08/07 11:02
-
-Machine giving big probs hanging today. Github Desktop won't open. Going to carry on, but unfortunately this means all future changes are going to end up being saved as one commit, meaning they will be that much more difficult to find.
-Going to see if I can commit to GitHub direct from my IDE.
-
-And now the GitHub Desktop is working
-
-1:13pm
-
-Just managed to find an equilibrium where the machine doesn't seem to hang. Hopefully I can finish the setup today. Fingers crossed.
-
-# 2023/08/08 8:30am
-
-Had to delete everything to start all over again. App refused to load for the last four or five hours I was working on it last night. I think it might have been a problem with the machine, but I have no way of knowing. Only option is to start again and be ultra methodical so I just have to go back 1 step if I run into issues. Soldiering on.
-
-10:06am
-
-Cleaned the machine up
+The code is on my github: https://github.com/waxx567 in the cake-flower/dashboard folder.
