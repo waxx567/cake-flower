@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="/main.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400..500&display=swap" rel="stylesheet" />
+        <title>FrontendMentor credit card challenge</title>
+        <link href="app/css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <main class="content-grid">
+            <div class="card-previews">
+                <div class="card-front">
+                    <img class="card-front__bg" src="./images/bg-card-front.png" alt="Card front image" />
+                    <img class="card-front__logo" src="./images/card-logo.svg" alt="Logo image" />
+                    <span class="card-front__number">0000 0000 0000 0000</span>
+                    <span class="card-front__name">Jane Appleseed</span>
+                    <span class="card-front__expiry">mm / yy</span>
+                </div>
+
+                <div class="card-back">
+                    <img class="card-back__bg" src="./images/bg-card-back.png" alt="Card back image" />
+                    <span class="card-back__cvc">123</span>
+                </div>
+            </div>
+            <form action="" class="form">
+                <div class="name-number">
+                    <div class="name-box">
+                        <p class="cardholder__name">Cardholder Name</p>
+                        <textarea name="textarea" id="name-input" cols="1" rows="1" class="name_input" placeholder="e.g Jane Appleseed"></textarea>
+                    </div>
+                    <div class="number-box">
+                        <p class="card__number">Card Number</p>
+                        <textarea name="textarea" id="number-input" cols="1" rows="1" class="number__input" placeholder="e.g. 1234 5678 9123 0000"></textarea>
+                    </div>
+                </div>
+                <div class="expiry-cvc">
+                    <div class="expiry-box">
+                        <p class="expiry__date">Exp. Date (MM/YY)</p>
+                        <textarea name="textarea" id="number-input" cols="1" rows="1" class="number__input" placeholder="Enter cvc number here"></textarea>
+                    </div>
+                </div>
+            </form>
+
+        </main>
+
+        <section class="desktop-boxes">
+            <div class="left-box"></div>
+            <div class="right-box"></div>
+        </section>
+
+    </body>
+
+</html>
